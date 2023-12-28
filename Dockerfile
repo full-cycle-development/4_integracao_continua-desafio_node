@@ -8,6 +8,6 @@ RUN npm i --omit=dev
 
 COPY ./ ./
 
-RUN npm run start
+CMD [ "npm run start" ] 
 
 
