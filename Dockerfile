@@ -8,6 +8,6 @@ RUN npm i --omit=dev
 
 COPY ./ ./
 
-RUN npm run start
+EXPOSE 3333
 
-
+CMD [ "npm", "run", "start" ]
