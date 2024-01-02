@@ -10,6 +10,6 @@ COPY ./ ./
 
 EXPOSE 3333
 
-CMD [ "node", "./src/index.js" ] 
+CMD [ "npm", "run", "start" ] 
 
 
